@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_74465964781c2da32775d0217e651be5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_74465964781c2da32775d0217e651be5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_74465964781c2da32775d0217e651be5 = L.map(
+                "map_74465964781c2da32775d0217e651be5",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7611f87d8b92ab3e5df29b078b4b3ed7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+            var circle_marker_737e635f3d77508525d2b460df30b17b = L.circleMarker(
+                [-38.0, -64.0],
+                {"bubblingMouseEvents": true, "color": "#fff300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff300ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7805429864253393, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_9f064f0f6da40c0319f28fffe22b1336 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11315835acbb9bbd4bc2fe677008b5f9 = $(`<div id="html_11315835acbb9bbd4bc2fe677008b5f9" style="width: 100.0%; height: 100.0%;">Argentina: Avg Rating 6.61, Movies: 68</div>`)[0];
+                popup_9f064f0f6da40c0319f28fffe22b1336.setContent(html_11315835acbb9bbd4bc2fe677008b5f9);
+            
+        
+
+        circle_marker_737e635f3d77508525d2b460df30b17b.bindPopup(popup_9f064f0f6da40c0319f28fffe22b1336)
+        ;
+
+        
+    
+    
+            circle_marker_737e635f3d77508525d2b460df30b17b.bindTooltip(
+                `<div>
+                     Argentina: 
+ Average Rating: 6.61, number of movies: 68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92551e3c6b2db5f1599a1ece77a6a59b = L.circleMarker(
+                [-25.0, 133.0],
+                {"bubblingMouseEvents": true, "color": "#ff8a00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8a00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.350886123680241, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_983a1a1431c281343dabdbf2c5391903 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa9d84dbb99c2dde25a7eabd8555596d = $(`<div id="html_fa9d84dbb99c2dde25a7eabd8555596d" style="width: 100.0%; height: 100.0%;">Australia: Avg Rating 6.18, Movies: 408</div>`)[0];
+                popup_983a1a1431c281343dabdbf2c5391903.setContent(html_fa9d84dbb99c2dde25a7eabd8555596d);
+            
+        
+
+        circle_marker_92551e3c6b2db5f1599a1ece77a6a59b.bindPopup(popup_983a1a1431c281343dabdbf2c5391903)
+        ;
+
+        
+    
+    
+            circle_marker_92551e3c6b2db5f1599a1ece77a6a59b.bindTooltip(
+                `<div>
+                     Australia: 
+ Average Rating: 6.18, number of movies: 408
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_64389d86c9ecb378018b8546cd7bf768 = L.circleMarker(
+                [47.5, 14.5],
+                {"bubblingMouseEvents": true, "color": "#e4fb23ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e4fb23ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9432336182336174, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_79ebb0ef4b5d464ece83ad54d912a44a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa4929b744c04a58f97e1772d630ea3a = $(`<div id="html_fa4929b744c04a58f97e1772d630ea3a" style="width: 100.0%; height: 100.0%;">Austria: Avg Rating 6.78, Movies: 54</div>`)[0];
+                popup_79ebb0ef4b5d464ece83ad54d912a44a.setContent(html_fa4929b744c04a58f97e1772d630ea3a);
+            
+        
+
+        circle_marker_64389d86c9ecb378018b8546cd7bf768.bindPopup(popup_79ebb0ef4b5d464ece83ad54d912a44a)
+        ;
+
+        
+    
+    
+            circle_marker_64389d86c9ecb378018b8546cd7bf768.bindTooltip(
+                `<div>
+                     Austria: 
+ Average Rating: 6.78, number of movies: 54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_926e5dc9f0037104bdbcecb990c58f28 = L.circleMarker(
+                [50.5, 4.0],
+                {"bubblingMouseEvents": true, "color": "#f1fd12ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f1fd12ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8936234817813764, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_bd6a96dee6c5a772f98cfce294dac1b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f21c231ef1abe7824818a5a2cbe62c87 = $(`<div id="html_f21c231ef1abe7824818a5a2cbe62c87" style="width: 100.0%; height: 100.0%;">Belgium: Avg Rating 6.73, Movies: 95</div>`)[0];
+                popup_bd6a96dee6c5a772f98cfce294dac1b9.setContent(html_f21c231ef1abe7824818a5a2cbe62c87);
+            
+        
+
+        circle_marker_926e5dc9f0037104bdbcecb990c58f28.bindPopup(popup_bd6a96dee6c5a772f98cfce294dac1b9)
+        ;
+
+        
+    
+    
+            circle_marker_926e5dc9f0037104bdbcecb990c58f28.bindTooltip(
+                `<div>
+                     Belgium: 
+ Average Rating: 6.73, number of movies: 95
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_824cc91a8e67ab55aa8c855ef51727e0 = L.circleMarker(
+                [44.0, 18.0],
+                {"bubblingMouseEvents": true, "color": "#209920ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#209920ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.584954751131221, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_ed077fe13754a0ee1a20ae301e15de3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdf71dbe62d78f4d6ffe598726a191c7 = $(`<div id="html_bdf71dbe62d78f4d6ffe598726a191c7" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina: Avg Rating 7.42, Movies: 17</div>`)[0];
+                popup_ed077fe13754a0ee1a20ae301e15de3a.setContent(html_bdf71dbe62d78f4d6ffe598726a191c7);
+            
+        
+
+        circle_marker_824cc91a8e67ab55aa8c855ef51727e0.bindPopup(popup_ed077fe13754a0ee1a20ae301e15de3a)
+        ;
+
+        
+    
+    
+            circle_marker_824cc91a8e67ab55aa8c855ef51727e0.bindTooltip(
+                `<div>
+                     Bosnia and Herzegovina: 
+ Average Rating: 7.42, number of movies: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_63897bee03bb854799a6509e9ef9114b = L.circleMarker(
+                [-14.2, -51.9],
+                {"bubblingMouseEvents": true, "color": "#ffb100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4760033444816045, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_560c87c46a0e4d2a29931c2f5a5dd5ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56c9f9a7e64edf7b23797fde390cd74f = $(`<div id="html_56c9f9a7e64edf7b23797fde390cd74f" style="width: 100.0%; height: 100.0%;">Brazil: Avg Rating 6.31, Movies: 46</div>`)[0];
+                popup_560c87c46a0e4d2a29931c2f5a5dd5ac.setContent(html_56c9f9a7e64edf7b23797fde390cd74f);
+            
+        
+
+        circle_marker_63897bee03bb854799a6509e9ef9114b.bindPopup(popup_560c87c46a0e4d2a29931c2f5a5dd5ac)
+        ;
+
+        
+    
+    
+            circle_marker_63897bee03bb854799a6509e9ef9114b.bindTooltip(
+                `<div>
+                     Brazil: 
+ Average Rating: 6.31, number of movies: 46
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6d2935c95d0ba73df34aef6c89cb3835 = L.circleMarker(
+                [42.7, 25.5],
+                {"bubblingMouseEvents": true, "color": "#d9fa32ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d9fa32ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.986057692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_6177f591805fa365ea7a56a7ce5e6538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c13548d58efe2612d600b1e5bf3bb76a = $(`<div id="html_c13548d58efe2612d600b1e5bf3bb76a" style="width: 100.0%; height: 100.0%;">Bulgaria: Avg Rating 6.82, Movies: 16</div>`)[0];
+                popup_6177f591805fa365ea7a56a7ce5e6538.setContent(html_c13548d58efe2612d600b1e5bf3bb76a);
+            
+        
+
+        circle_marker_6d2935c95d0ba73df34aef6c89cb3835.bindPopup(popup_6177f591805fa365ea7a56a7ce5e6538)
+        ;
+
+        
+    
+    
+            circle_marker_6d2935c95d0ba73df34aef6c89cb3835.bindTooltip(
+                `<div>
+                     Bulgaria: 
+ Average Rating: 6.82, number of movies: 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8cce42564d87ef670cb017f9f3f4649a = L.circleMarker(
+                [56.0, -106.0],
+                {"bubblingMouseEvents": true, "color": "#ff1b00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff1b00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.068786982248521, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_f2c342eb1357ffaf10068326e6affc47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a95962db5622a823afc4c2be9d383630 = $(`<div id="html_a95962db5622a823afc4c2be9d383630" style="width: 100.0%; height: 100.0%;">Canada: Avg Rating 5.90, Movies: 676</div>`)[0];
+                popup_f2c342eb1357ffaf10068326e6affc47.setContent(html_a95962db5622a823afc4c2be9d383630);
+            
+        
+
+        circle_marker_8cce42564d87ef670cb017f9f3f4649a.bindPopup(popup_f2c342eb1357ffaf10068326e6affc47)
+        ;
+
+        
+    
+    
+            circle_marker_8cce42564d87ef670cb017f9f3f4649a.bindTooltip(
+                `<div>
+                     Canada: 
+ Average Rating: 5.90, number of movies: 676
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a34bfe44e33c6edaea8a377d8669d5e0 = L.circleMarker(
+                [35.0, 105.0],
+                {"bubblingMouseEvents": true, "color": "#e1fb27ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e1fb27ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9549183117767184, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7ceb204337d7e2d81cbc5f9033222c4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cfa7ce3443ca8e0bfa8d3a154cec65c = $(`<div id="html_6cfa7ce3443ca8e0bfa8d3a154cec65c" style="width: 100.0%; height: 100.0%;">China: Avg Rating 6.79, Movies: 226</div>`)[0];
+                popup_7ceb204337d7e2d81cbc5f9033222c4c.setContent(html_6cfa7ce3443ca8e0bfa8d3a154cec65c);
+            
+        
+
+        circle_marker_a34bfe44e33c6edaea8a377d8669d5e0.bindPopup(popup_7ceb204337d7e2d81cbc5f9033222c4c)
+        ;
+
+        
+    
+    
+            circle_marker_a34bfe44e33c6edaea8a377d8669d5e0.bindTooltip(
+                `<div>
+                     China: 
+ Average Rating: 6.79, number of movies: 226
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8464327f9a50696c645d6939ac880a6a = L.circleMarker(
+                [4.0, -72.0],
+                {"bubblingMouseEvents": true, "color": "#bbf558ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bbf558ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.098076923076922, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_0a16cf2dd04820b7780c44c7f6ef80b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26bfca5044e823ab277136f3acfd0b84 = $(`<div id="html_26bfca5044e823ab277136f3acfd0b84" style="width: 100.0%; height: 100.0%;">Colombia: Avg Rating 6.93, Movies: 13</div>`)[0];
+                popup_0a16cf2dd04820b7780c44c7f6ef80b7.setContent(html_26bfca5044e823ab277136f3acfd0b84);
+            
+        
+
+        circle_marker_8464327f9a50696c645d6939ac880a6a.bindPopup(popup_0a16cf2dd04820b7780c44c7f6ef80b7)
+        ;
+
+        
+    
+    
+            circle_marker_8464327f9a50696c645d6939ac880a6a.bindTooltip(
+                `<div>
+                     Colombia: 
+ Average Rating: 6.93, number of movies: 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f908b28b8fae53e0d75098895cae4fe4 = L.circleMarker(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "#91ef8eff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#91ef8eff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2548076923076925, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_4c5413bcedf852345317f451ad5c03ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ccdf4eb7fd83a1c929dfe4565a828b6 = $(`<div id="html_2ccdf4eb7fd83a1c929dfe4565a828b6" style="width: 100.0%; height: 100.0%;">Croatia: Avg Rating 7.09, Movies: 16</div>`)[0];
+                popup_4c5413bcedf852345317f451ad5c03ed.setContent(html_2ccdf4eb7fd83a1c929dfe4565a828b6);
+            
+        
+
+        circle_marker_f908b28b8fae53e0d75098895cae4fe4.bindPopup(popup_4c5413bcedf852345317f451ad5c03ed)
+        ;
+
+        
+    
+    
+            circle_marker_f908b28b8fae53e0d75098895cae4fe4.bindTooltip(
+                `<div>
+                     Croatia: 
+ Average Rating: 7.09, number of movies: 16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b8d1157f86c05c33d61027d02436b67e = L.circleMarker(
+                [21.5, -77.8],
+                {"bubblingMouseEvents": true, "color": "#ffda00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffda00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.667307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_d8e30b4c337eacf5ab89e76600a0ccd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bec0622e91002a5b20e7a38beadc9eb8 = $(`<div id="html_bec0622e91002a5b20e7a38beadc9eb8" style="width: 100.0%; height: 100.0%;">Cuba: Avg Rating 6.50, Movies: 6</div>`)[0];
+                popup_d8e30b4c337eacf5ab89e76600a0ccd5.setContent(html_bec0622e91002a5b20e7a38beadc9eb8);
+            
+        
+
+        circle_marker_b8d1157f86c05c33d61027d02436b67e.bindPopup(popup_d8e30b4c337eacf5ab89e76600a0ccd5)
+        ;
+
+        
+    
+    
+            circle_marker_b8d1157f86c05c33d61027d02436b67e.bindTooltip(
+                `<div>
+                     Cuba: 
+ Average Rating: 6.50, number of movies: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f59b853b4b1fcc3ea065f3fc45e530c7 = L.circleMarker(
+                [49.8, 15.5],
+                {"bubblingMouseEvents": true, "color": "#f8fe09ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f8fe09ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8673076923076923, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_b1617b58e52ef64d1b6cea4c88e425a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a63ecbe9155cedb1486bae2cb3d0cbc = $(`<div id="html_9a63ecbe9155cedb1486bae2cb3d0cbc" style="width: 100.0%; height: 100.0%;">Czech Republic: Avg Rating 6.70, Movies: 54</div>`)[0];
+                popup_b1617b58e52ef64d1b6cea4c88e425a0.setContent(html_9a63ecbe9155cedb1486bae2cb3d0cbc);
+            
+        
+
+        circle_marker_f59b853b4b1fcc3ea065f3fc45e530c7.bindPopup(popup_b1617b58e52ef64d1b6cea4c88e425a0)
+        ;
+
+        
+    
+    
+            circle_marker_f59b853b4b1fcc3ea065f3fc45e530c7.bindTooltip(
+                `<div>
+                     Czech Republic: 
+ Average Rating: 6.70, number of movies: 54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a0aee6d5c475d42aba7a9e76a2b1073c = L.circleMarker(
+                [49.0, 15.5],
+                {"bubblingMouseEvents": true, "color": "#159015ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#159015ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6173076923076914, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_28b511903363d749be4f869d6e288e14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63d856f51080da083bef047e4c9fa51c = $(`<div id="html_63d856f51080da083bef047e4c9fa51c" style="width: 100.0%; height: 100.0%;">Czechoslovakia: Avg Rating 7.45, Movies: 18</div>`)[0];
+                popup_28b511903363d749be4f869d6e288e14.setContent(html_63d856f51080da083bef047e4c9fa51c);
+            
+        
+
+        circle_marker_a0aee6d5c475d42aba7a9e76a2b1073c.bindPopup(popup_28b511903363d749be4f869d6e288e14)
+        ;
+
+        
+    
+    
+            circle_marker_a0aee6d5c475d42aba7a9e76a2b1073c.bindTooltip(
+                `<div>
+                     Czechoslovakia: 
+ Average Rating: 7.45, number of movies: 18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f75dd3df9f5778c7e8a87f2f9643bc01 = L.circleMarker(
+                [56.0, 10.0],
+                {"bubblingMouseEvents": true, "color": "#d8f933ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d8f933ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.990465587044535, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_506aacf5879f56870936d1306cf3a1cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d1e2fda4660a97046dac5ffba31f060 = $(`<div id="html_1d1e2fda4660a97046dac5ffba31f060" style="width: 100.0%; height: 100.0%;">Denmark: Avg Rating 6.82, Movies: 95</div>`)[0];
+                popup_506aacf5879f56870936d1306cf3a1cc.setContent(html_1d1e2fda4660a97046dac5ffba31f060);
+            
+        
+
+        circle_marker_f75dd3df9f5778c7e8a87f2f9643bc01.bindPopup(popup_506aacf5879f56870936d1306cf3a1cc)
+        ;
+
+        
+    
+    
+            circle_marker_f75dd3df9f5778c7e8a87f2f9643bc01.bindTooltip(
+                `<div>
+                     Denmark: 
+ Average Rating: 6.82, number of movies: 95
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ba51d5d91970d26395bebebd22d917d = L.circleMarker(
+                [27.0, 30.0],
+                {"bubblingMouseEvents": true, "color": "#ff9000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3673076923076923, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_c7ad3bf9205d3fb570183e3f6a64824f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_029318f4d55984d16869300f37a8f8a9 = $(`<div id="html_029318f4d55984d16869300f37a8f8a9" style="width: 100.0%; height: 100.0%;">Egypt: Avg Rating 6.20, Movies: 12</div>`)[0];
+                popup_c7ad3bf9205d3fb570183e3f6a64824f.setContent(html_029318f4d55984d16869300f37a8f8a9);
+            
+        
+
+        circle_marker_6ba51d5d91970d26395bebebd22d917d.bindPopup(popup_c7ad3bf9205d3fb570183e3f6a64824f)
+        ;
+
+        
+    
+    
+            circle_marker_6ba51d5d91970d26395bebebd22d917d.bindTooltip(
+                `<div>
+                     Egypt: 
+ Average Rating: 6.20, number of movies: 12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1704f5bd7b29ca537e1d799382589123 = L.circleMarker(
+                [52.5, -1.0],
+                {"bubblingMouseEvents": true, "color": "#e9fc1dff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e9fc1dff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.926057692307693, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_5b9ffacaf925cc13e46a9c8c3f5f72d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6353eda9bb1ba08759c96cdc4061ba = $(`<div id="html_ab6353eda9bb1ba08759c96cdc4061ba" style="width: 100.0%; height: 100.0%;">England: Avg Rating 6.76, Movies: 80</div>`)[0];
+                popup_5b9ffacaf925cc13e46a9c8c3f5f72d1.setContent(html_ab6353eda9bb1ba08759c96cdc4061ba);
+            
+        
+
+        circle_marker_1704f5bd7b29ca537e1d799382589123.bindPopup(popup_5b9ffacaf925cc13e46a9c8c3f5f72d1)
+        ;
+
+        
+    
+    
+            circle_marker_1704f5bd7b29ca537e1d799382589123.bindTooltip(
+                `<div>
+                     England: 
+ Average Rating: 6.76, number of movies: 80
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cbc15c4078ca6fda2c81bc3daf9fe69e = L.circleMarker(
+                [58.6, 25.0],
+                {"bubblingMouseEvents": true, "color": "#ff4700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff4700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.1815934065934064, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_842e97428bfc07186d422c04e9fef026 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd9905ccee2a6ced3f8935e98e671e44 = $(`<div id="html_fd9905ccee2a6ced3f8935e98e671e44" style="width: 100.0%; height: 100.0%;">Estonia: Avg Rating 6.01, Movies: 7</div>`)[0];
+                popup_842e97428bfc07186d422c04e9fef026.setContent(html_fd9905ccee2a6ced3f8935e98e671e44);
+            
+        
+
+        circle_marker_cbc15c4078ca6fda2c81bc3daf9fe69e.bindPopup(popup_842e97428bfc07186d422c04e9fef026)
+        ;
+
+        
+    
+    
+            circle_marker_cbc15c4078ca6fda2c81bc3daf9fe69e.bindTooltip(
+                `<div>
+                     Estonia: 
+ Average Rating: 6.01, number of movies: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_faac6cc5071fe8b7aeeb7e6df4ef11d6 = L.circleMarker(
+                [64.0, 26.0],
+                {"bubblingMouseEvents": true, "color": "#ffe600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.720879120879121, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_6e5c582ba732be522474a5c02976c352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f9bd6101a5ac32d262437fbdebdb0d1 = $(`<div id="html_1f9bd6101a5ac32d262437fbdebdb0d1" style="width: 100.0%; height: 100.0%;">Finland: Avg Rating 6.55, Movies: 56</div>`)[0];
+                popup_6e5c582ba732be522474a5c02976c352.setContent(html_1f9bd6101a5ac32d262437fbdebdb0d1);
+            
+        
+
+        circle_marker_faac6cc5071fe8b7aeeb7e6df4ef11d6.bindPopup(popup_6e5c582ba732be522474a5c02976c352)
+        ;
+
+        
+    
+    
+            circle_marker_faac6cc5071fe8b7aeeb7e6df4ef11d6.bindTooltip(
+                `<div>
+                     Finland: 
+ Average Rating: 6.55, number of movies: 56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_393e622dc8e0e1901d9741d7048494af = L.circleMarker(
+                [46.0, 2.0],
+                {"bubblingMouseEvents": true, "color": "#faff07ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#faff07ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.861947558304342, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7f551eef757ae1f77ecae822f275a4a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_882cb3ab008f55e73ee753e1cdc22fe1 = $(`<div id="html_882cb3ab008f55e73ee753e1cdc22fe1" style="width: 100.0%; height: 100.0%;">France: Avg Rating 6.69, Movies: 1194</div>`)[0];
+                popup_7f551eef757ae1f77ecae822f275a4a8.setContent(html_882cb3ab008f55e73ee753e1cdc22fe1);
+            
+        
+
+        circle_marker_393e622dc8e0e1901d9741d7048494af.bindPopup(popup_7f551eef757ae1f77ecae822f275a4a8)
+        ;
+
+        
+    
+    
+            circle_marker_393e622dc8e0e1901d9741d7048494af.bindTooltip(
+                `<div>
+                     France: 
+ Average Rating: 6.69, number of movies: 1194
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_485d33e5eb02865f9b5b0b6a96923c0b = L.circleMarker(
+                [52.0, 13.4],
+                {"bubblingMouseEvents": true, "color": "#8dec8dff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8dec8dff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.267307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_6555a1e140c2a7619cfc22fe515bc629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b95268e41ea36ab780bc2a6fbe0af1c = $(`<div id="html_0b95268e41ea36ab780bc2a6fbe0af1c" style="width: 100.0%; height: 100.0%;">German Democratic Republic: Avg Rating 7.10, Movies: 9</div>`)[0];
+                popup_6555a1e140c2a7619cfc22fe515bc629.setContent(html_0b95268e41ea36ab780bc2a6fbe0af1c);
+            
+        
+
+        circle_marker_485d33e5eb02865f9b5b0b6a96923c0b.bindPopup(popup_6555a1e140c2a7619cfc22fe515bc629)
+        ;
+
+        
+    
+    
+            circle_marker_485d33e5eb02865f9b5b0b6a96923c0b.bindTooltip(
+                `<div>
+                     German Democratic Republic: 
+ Average Rating: 7.10, number of movies: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2158567dc95224f21bfaccd949882473 = L.circleMarker(
+                [51.0, 10.0],
+                {"bubblingMouseEvents": true, "color": "#ffd300ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd300ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6331289483463394, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_15e6dfa60cd6da2a3273354900f6f363 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1e1cbaa0c1545e102b97df62d45682 = $(`<div id="html_bc1e1cbaa0c1545e102b97df62d45682" style="width: 100.0%; height: 100.0%;">Germany: Avg Rating 6.47, Movies: 828</div>`)[0];
+                popup_15e6dfa60cd6da2a3273354900f6f363.setContent(html_bc1e1cbaa0c1545e102b97df62d45682);
+            
+        
+
+        circle_marker_2158567dc95224f21bfaccd949882473.bindPopup(popup_15e6dfa60cd6da2a3273354900f6f363)
+        ;
+
+        
+    
+    
+            circle_marker_2158567dc95224f21bfaccd949882473.bindTooltip(
+                `<div>
+                     Germany: 
+ Average Rating: 6.47, number of movies: 828
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c9745639bfa079c46cc59a5f73d24f44 = L.circleMarker(
+                [39.0, 22.0],
+                {"bubblingMouseEvents": true, "color": "#d3f93aff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d3f93aff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.008484162895927, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7fd263a2698cdecca31d4c98d51e8a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97328bbb0c31482a5c07f73804397d78 = $(`<div id="html_97328bbb0c31482a5c07f73804397d78" style="width: 100.0%; height: 100.0%;">Greece: Avg Rating 6.84, Movies: 34</div>`)[0];
+                popup_7fd263a2698cdecca31d4c98d51e8a82.setContent(html_97328bbb0c31482a5c07f73804397d78);
+            
+        
+
+        circle_marker_c9745639bfa079c46cc59a5f73d24f44.bindPopup(popup_7fd263a2698cdecca31d4c98d51e8a82)
+        ;
+
+        
+    
+    
+            circle_marker_c9745639bfa079c46cc59a5f73d24f44.bindTooltip(
+                `<div>
+                     Greece: 
+ Average Rating: 6.84, number of movies: 34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7fb5475175eb1345b8edca173260581 = L.circleMarker(
+                [22.3, 114.2],
+                {"bubblingMouseEvents": true, "color": "#ffd500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.640879120879121, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_664ef8124d0cde22d9a920cba55d26e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fd70f4bf009235f16276df555593f42 = $(`<div id="html_0fd70f4bf009235f16276df555593f42" style="width: 100.0%; height: 100.0%;">Hong Kong: Avg Rating 6.47, Movies: 420</div>`)[0];
+                popup_664ef8124d0cde22d9a920cba55d26e0.setContent(html_0fd70f4bf009235f16276df555593f42);
+            
+        
+
+        circle_marker_d7fb5475175eb1345b8edca173260581.bindPopup(popup_664ef8124d0cde22d9a920cba55d26e0)
+        ;
+
+        
+    
+    
+            circle_marker_d7fb5475175eb1345b8edca173260581.bindTooltip(
+                `<div>
+                     Hong Kong: 
+ Average Rating: 6.47, number of movies: 420
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd42782219439cbdeacae514c6c02542 = L.circleMarker(
+                [47.0, 20.0],
+                {"bubblingMouseEvents": true, "color": "#fff700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.802001569858713, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7b72265342a350a57ae94c0798b0a2cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab0faf98d0c52311f997c7946d98ab2f = $(`<div id="html_ab0faf98d0c52311f997c7946d98ab2f" style="width: 100.0%; height: 100.0%;">Hungary: Avg Rating 6.63, Movies: 49</div>`)[0];
+                popup_7b72265342a350a57ae94c0798b0a2cc.setContent(html_ab0faf98d0c52311f997c7946d98ab2f);
+            
+        
+
+        circle_marker_bd42782219439cbdeacae514c6c02542.bindPopup(popup_7b72265342a350a57ae94c0798b0a2cc)
+        ;
+
+        
+    
+    
+            circle_marker_bd42782219439cbdeacae514c6c02542.bindTooltip(
+                `<div>
+                     Hungary: 
+ Average Rating: 6.63, number of movies: 49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_56ac6dac083c82887f915c2c6e3953af = L.circleMarker(
+                [64.8, -18.0],
+                {"bubblingMouseEvents": true, "color": "#fff900ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fff900ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.808484162895928, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_bb3b9414679610ee8ae86c3d9494376e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cafd78517cd3c22c20bf38fb3b8ad831 = $(`<div id="html_cafd78517cd3c22c20bf38fb3b8ad831" style="width: 100.0%; height: 100.0%;">Iceland: Avg Rating 6.64, Movies: 17</div>`)[0];
+                popup_bb3b9414679610ee8ae86c3d9494376e.setContent(html_cafd78517cd3c22c20bf38fb3b8ad831);
+            
+        
+
+        circle_marker_56ac6dac083c82887f915c2c6e3953af.bindPopup(popup_bb3b9414679610ee8ae86c3d9494376e)
+        ;
+
+        
+    
+    
+            circle_marker_56ac6dac083c82887f915c2c6e3953af.bindTooltip(
+                `<div>
+                     Iceland: 
+ Average Rating: 6.64, number of movies: 17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b603f6300e40db941b14e5dd0984e1dd = L.circleMarker(
+                [21.0, 78.0],
+                {"bubblingMouseEvents": true, "color": "#ffb600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4987154320721343, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_b09a4af0654995532b5810be9d420a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38de0c6248024113669bafc4de301e05 = $(`<div id="html_38de0c6248024113669bafc4de301e05" style="width: 100.0%; height: 100.0%;">India: Avg Rating 6.33, Movies: 1783</div>`)[0];
+                popup_b09a4af0654995532b5810be9d420a82.setContent(html_38de0c6248024113669bafc4de301e05);
+            
+        
+
+        circle_marker_b603f6300e40db941b14e5dd0984e1dd.bindPopup(popup_b09a4af0654995532b5810be9d420a82)
+        ;
+
+        
+    
+    
+            circle_marker_b603f6300e40db941b14e5dd0984e1dd.bindTooltip(
+                `<div>
+                     India: 
+ Average Rating: 6.33, number of movies: 1783
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_69c41815c0dff8c24e380fb6e942a191 = L.circleMarker(
+                [-0.8, 113.9],
+                {"bubblingMouseEvents": true, "color": "#c7f748ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c7f748ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.051923076923077, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_f485af4f6275a70e2e2c211a9b7881f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e30917797b5de3f9e0989fef45b2908f = $(`<div id="html_e30917797b5de3f9e0989fef45b2908f" style="width: 100.0%; height: 100.0%;">Indonesia: Avg Rating 6.88, Movies: 13</div>`)[0];
+                popup_f485af4f6275a70e2e2c211a9b7881f8.setContent(html_e30917797b5de3f9e0989fef45b2908f);
+            
+        
+
+        circle_marker_69c41815c0dff8c24e380fb6e942a191.bindPopup(popup_f485af4f6275a70e2e2c211a9b7881f8)
+        ;
+
+        
+    
+    
+            circle_marker_69c41815c0dff8c24e380fb6e942a191.bindTooltip(
+                `<div>
+                     Indonesia: 
+ Average Rating: 6.88, number of movies: 13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9fc023ac9cb60ecd3eea6c3eba14d6ee = L.circleMarker(
+                [32.0, 53.0],
+                {"bubblingMouseEvents": true, "color": "#68d068ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#68d068ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.376398601398601, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_36bcb5e8b866d3fb923991ae8e01fa01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8200da231c4f009f2ded6885fa54091 = $(`<div id="html_e8200da231c4f009f2ded6885fa54091" style="width: 100.0%; height: 100.0%;">Iran: Avg Rating 7.21, Movies: 44</div>`)[0];
+                popup_36bcb5e8b866d3fb923991ae8e01fa01.setContent(html_e8200da231c4f009f2ded6885fa54091);
+            
+        
+
+        circle_marker_9fc023ac9cb60ecd3eea6c3eba14d6ee.bindPopup(popup_36bcb5e8b866d3fb923991ae8e01fa01)
+        ;
+
+        
+    
+    
+            circle_marker_9fc023ac9cb60ecd3eea6c3eba14d6ee.bindTooltip(
+                `<div>
+                     Iran: 
+ Average Rating: 7.21, number of movies: 44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a82f97659970009d2b5f838e88e65b0d = L.circleMarker(
+                [53.0, -8.0],
+                {"bubblingMouseEvents": true, "color": "#ffd500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6443568726355613, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_93a9468bda8dacd9ed398ffc320427b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de7a62db36a00ea7d5c1a255e89066c7 = $(`<div id="html_de7a62db36a00ea7d5c1a255e89066c7" style="width: 100.0%; height: 100.0%;">Ireland: Avg Rating 6.48, Movies: 122</div>`)[0];
+                popup_93a9468bda8dacd9ed398ffc320427b1.setContent(html_de7a62db36a00ea7d5c1a255e89066c7);
+            
+        
+
+        circle_marker_a82f97659970009d2b5f838e88e65b0d.bindPopup(popup_93a9468bda8dacd9ed398ffc320427b1)
+        ;
+
+        
+    
+    
+            circle_marker_a82f97659970009d2b5f838e88e65b0d.bindTooltip(
+                `<div>
+                     Ireland: 
+ Average Rating: 6.48, number of movies: 122
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5aeaddad5eff7ca1a6fa15a3c8206071 = L.circleMarker(
+                [31.0, 35.0],
+                {"bubblingMouseEvents": true, "color": "#ffde00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffde00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.684288824383163, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_c06b9cf27638846e772f9b8291eb8e22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a644b89792c710d3f7e39d29067a96ee = $(`<div id="html_a644b89792c710d3f7e39d29067a96ee" style="width: 100.0%; height: 100.0%;">Israel: Avg Rating 6.52, Movies: 53</div>`)[0];
+                popup_c06b9cf27638846e772f9b8291eb8e22.setContent(html_a644b89792c710d3f7e39d29067a96ee);
+            
+        
+
+        circle_marker_5aeaddad5eff7ca1a6fa15a3c8206071.bindPopup(popup_c06b9cf27638846e772f9b8291eb8e22)
+        ;
+
+        
+    
+    
+            circle_marker_5aeaddad5eff7ca1a6fa15a3c8206071.bindTooltip(
+                `<div>
+                     Israel: 
+ Average Rating: 6.52, number of movies: 53
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9932e750ccf0602756280ee08f278a3c = L.circleMarker(
+                [42.5, 12.5],
+                {"bubblingMouseEvents": true, "color": "#ffd200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.628821379908336, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_54807136b5056b6fd7699a80b0710be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d1b1df9e6293cca7c66176429536cf8 = $(`<div id="html_1d1b1df9e6293cca7c66176429536cf8" style="width: 100.0%; height: 100.0%;">Italy: Avg Rating 6.46, Movies: 621</div>`)[0];
+                popup_54807136b5056b6fd7699a80b0710be0.setContent(html_1d1b1df9e6293cca7c66176429536cf8);
+            
+        
+
+        circle_marker_9932e750ccf0602756280ee08f278a3c.bindPopup(popup_54807136b5056b6fd7699a80b0710be0)
+        ;
+
+        
+    
+    
+            circle_marker_9932e750ccf0602756280ee08f278a3c.bindTooltip(
+                `<div>
+                     Italy: 
+ Average Rating: 6.46, number of movies: 621
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6326f253d68c5320ad1cf639860d5ddd = L.circleMarker(
+                [36.0, 138.0],
+                {"bubblingMouseEvents": true, "color": "#feff02ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#feff02ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8463449593884373, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_138c7eb7614c5f6df8701fab6dad701b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2383e6e1fb471cf46213dd99ccc0b7 = $(`<div id="html_5a2383e6e1fb471cf46213dd99ccc0b7" style="width: 100.0%; height: 100.0%;">Japan: Avg Rating 6.68, Movies: 644</div>`)[0];
+                popup_138c7eb7614c5f6df8701fab6dad701b.setContent(html_5a2383e6e1fb471cf46213dd99ccc0b7);
+            
+        
+
+        circle_marker_6326f253d68c5320ad1cf639860d5ddd.bindPopup(popup_138c7eb7614c5f6df8701fab6dad701b)
+        ;
+
+        
+    
+    
+            circle_marker_6326f253d68c5320ad1cf639860d5ddd.bindTooltip(
+                `<div>
+                     Japan: 
+ Average Rating: 6.68, number of movies: 644
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3bf6e04c36bf774b30fe64c21d776e5b = L.circleMarker(
+                [54.0, -2.0],
+                {"bubblingMouseEvents": true, "color": "#defa2bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#defa2bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.967307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_fccc7dee835b8967da94210202b91610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2356558860192eb4991af240cc6f5927 = $(`<div id="html_2356558860192eb4991af240cc6f5927" style="width: 100.0%; height: 100.0%;">Kingdom of Great Britain: Avg Rating 6.80, Movies: 11</div>`)[0];
+                popup_fccc7dee835b8967da94210202b91610.setContent(html_2356558860192eb4991af240cc6f5927);
+            
+        
+
+        circle_marker_3bf6e04c36bf774b30fe64c21d776e5b.bindPopup(popup_fccc7dee835b8967da94210202b91610)
+        ;
+
+        
+    
+    
+            circle_marker_3bf6e04c36bf774b30fe64c21d776e5b.bindTooltip(
+                `<div>
+                     Kingdom of Great Britain: 
+ Average Rating: 6.80, number of movies: 11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_903a37e1f37bd2f43b81a801b18478ce = L.circleMarker(
+                [34.0, 36.0],
+                {"bubblingMouseEvents": true, "color": "#f8fe09ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f8fe09ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8673076923076923, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_a055d9b0619abf2e647675f500c46b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f3070258f24e7581ce3509f30f5ca89 = $(`<div id="html_5f3070258f24e7581ce3509f30f5ca89" style="width: 100.0%; height: 100.0%;">Lebanon: Avg Rating 6.70, Movies: 6</div>`)[0];
+                popup_a055d9b0619abf2e647675f500c46b70.setContent(html_5f3070258f24e7581ce3509f30f5ca89);
+            
+        
+
+        circle_marker_903a37e1f37bd2f43b81a801b18478ce.bindPopup(popup_a055d9b0619abf2e647675f500c46b70)
+        ;
+
+        
+    
+    
+            circle_marker_903a37e1f37bd2f43b81a801b18478ce.bindTooltip(
+                `<div>
+                     Lebanon: 
+ Average Rating: 6.70, number of movies: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be44298ef2c5ad1a09ec2656ce95039b = L.circleMarker(
+                [49.8, 6.1],
+                {"bubblingMouseEvents": true, "color": "#ff5200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff5200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208974358974359, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_9774768a8c3ee46cd523906837b17b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_345d1625ab23a0fa2a89073b528eb6ab = $(`<div id="html_345d1625ab23a0fa2a89073b528eb6ab" style="width: 100.0%; height: 100.0%;">Luxembourg: Avg Rating 6.04, Movies: 24</div>`)[0];
+                popup_9774768a8c3ee46cd523906837b17b19.setContent(html_345d1625ab23a0fa2a89073b528eb6ab);
+            
+        
+
+        circle_marker_be44298ef2c5ad1a09ec2656ce95039b.bindPopup(popup_9774768a8c3ee46cd523906837b17b19)
+        ;
+
+        
+    
+    
+            circle_marker_be44298ef2c5ad1a09ec2656ce95039b.bindTooltip(
+                `<div>
+                     Luxembourg: 
+ Average Rating: 6.04, number of movies: 24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a60c505ea5eb8aacc597fb7e1d402933 = L.circleMarker(
+                [4.2, 101.9],
+                {"bubblingMouseEvents": true, "color": "#ff7800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3048076923076923, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7471236cdfb283ce2e6b357b296bbc35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee01b972b6a4739118440d43212fc10 = $(`<div id="html_eee01b972b6a4739118440d43212fc10" style="width: 100.0%; height: 100.0%;">Malaysia: Avg Rating 6.14, Movies: 8</div>`)[0];
+                popup_7471236cdfb283ce2e6b357b296bbc35.setContent(html_eee01b972b6a4739118440d43212fc10);
+            
+        
+
+        circle_marker_a60c505ea5eb8aacc597fb7e1d402933.bindPopup(popup_7471236cdfb283ce2e6b357b296bbc35)
+        ;
+
+        
+    
+    
+            circle_marker_a60c505ea5eb8aacc597fb7e1d402933.bindTooltip(
+                `<div>
+                     Malaysia: 
+ Average Rating: 6.14, number of movies: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b5c9c0eb35962a0824643cf63eb232bb = L.circleMarker(
+                [23.0, -102.0],
+                {"bubblingMouseEvents": true, "color": "#ffb100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4766100178890875, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_b63616a1e3af293fb0eb3138432c4c6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38b513f292bb67d0c27be4f3d28320ce = $(`<div id="html_38b513f292bb67d0c27be4f3d28320ce" style="width: 100.0%; height: 100.0%;">Mexico: Avg Rating 6.31, Movies: 86</div>`)[0];
+                popup_b63616a1e3af293fb0eb3138432c4c6b.setContent(html_38b513f292bb67d0c27be4f3d28320ce);
+            
+        
+
+        circle_marker_b5c9c0eb35962a0824643cf63eb232bb.bindPopup(popup_b63616a1e3af293fb0eb3138432c4c6b)
+        ;
+
+        
+    
+    
+            circle_marker_b5c9c0eb35962a0824643cf63eb232bb.bindTooltip(
+                `<div>
+                     Mexico: 
+ Average Rating: 6.31, number of movies: 86
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_58b2ccca4cbaa90991ebd6593c957e83 = L.circleMarker(
+                [31.8, -7.1],
+                {"bubblingMouseEvents": true, "color": "#ffd100ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffd100ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6244505494505486, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_3b5a79efbb6bbca0d91ef34e82d82ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f7a397a1ce26b2e7ac36992f05459b = $(`<div id="html_52f7a397a1ce26b2e7ac36992f05459b" style="width: 100.0%; height: 100.0%;">Morocco: Avg Rating 6.46, Movies: 7</div>`)[0];
+                popup_3b5a79efbb6bbca0d91ef34e82d82ba5.setContent(html_52f7a397a1ce26b2e7ac36992f05459b);
+            
+        
+
+        circle_marker_58b2ccca4cbaa90991ebd6593c957e83.bindPopup(popup_3b5a79efbb6bbca0d91ef34e82d82ba5)
+        ;
+
+        
+    
+    
+            circle_marker_58b2ccca4cbaa90991ebd6593c957e83.bindTooltip(
+                `<div>
+                     Morocco: 
+ Average Rating: 6.46, number of movies: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f4d2df8bf242630c9068d9d7398f4960 = L.circleMarker(
+                [52.5, 5.75],
+                {"bubblingMouseEvents": true, "color": "#ffc000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5433760683760687, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_3acfd370443926f76afa849d6366dc11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b24b056989b597ce538d33222bc8718 = $(`<div id="html_8b24b056989b597ce538d33222bc8718" style="width: 100.0%; height: 100.0%;">Netherlands: Avg Rating 6.38, Movies: 117</div>`)[0];
+                popup_3acfd370443926f76afa849d6366dc11.setContent(html_8b24b056989b597ce538d33222bc8718);
+            
+        
+
+        circle_marker_f4d2df8bf242630c9068d9d7398f4960.bindPopup(popup_3acfd370443926f76afa849d6366dc11)
+        ;
+
+        
+    
+    
+            circle_marker_f4d2df8bf242630c9068d9d7398f4960.bindTooltip(
+                `<div>
+                     Netherlands: 
+ Average Rating: 6.38, number of movies: 117
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab1d2da51fd34e4ad27bd2a3945b34fb = L.circleMarker(
+                [-41.0, 174.0],
+                {"bubblingMouseEvents": true, "color": "#ffba00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffba00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.515622299049265, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_da66b890fff9ed9bd079281fc08e215f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01cc4e7a2e4a9551c732a37727aa7bc = $(`<div id="html_b01cc4e7a2e4a9551c732a37727aa7bc" style="width: 100.0%; height: 100.0%;">New Zealand: Avg Rating 6.35, Movies: 178</div>`)[0];
+                popup_da66b890fff9ed9bd079281fc08e215f.setContent(html_b01cc4e7a2e4a9551c732a37727aa7bc);
+            
+        
+
+        circle_marker_ab1d2da51fd34e4ad27bd2a3945b34fb.bindPopup(popup_da66b890fff9ed9bd079281fc08e215f)
+        ;
+
+        
+    
+    
+            circle_marker_ab1d2da51fd34e4ad27bd2a3945b34fb.bindTooltip(
+                `<div>
+                     New Zealand: 
+ Average Rating: 6.35, number of movies: 178
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c144433d59c7a488e825a4e52a92d64e = L.circleMarker(
+                [61.0, 8.0],
+                {"bubblingMouseEvents": true, "color": "#f6fe0cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f6fe0cff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8762362637362635, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_6df3e4809ab0761b88a8ccde848b8094 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b81ca0f26cf1eecb7e940969338f8e7 = $(`<div id="html_7b81ca0f26cf1eecb7e940969338f8e7" style="width: 100.0%; height: 100.0%;">Norway: Avg Rating 6.71, Movies: 56</div>`)[0];
+                popup_6df3e4809ab0761b88a8ccde848b8094.setContent(html_7b81ca0f26cf1eecb7e940969338f8e7);
+            
+        
+
+        circle_marker_c144433d59c7a488e825a4e52a92d64e.bindPopup(popup_6df3e4809ab0761b88a8ccde848b8094)
+        ;
+
+        
+    
+    
+            circle_marker_c144433d59c7a488e825a4e52a92d64e.bindTooltip(
+                `<div>
+                     Norway: 
+ Average Rating: 6.71, number of movies: 56
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_06df2dc05eed86d9161a55cde0a6ed65 = L.circleMarker(
+                [-9.2, -75.0],
+                {"bubblingMouseEvents": true, "color": "#defa2bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#defa2bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.967307692307693, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_8fe8209dd2df89d0edccd19182e9f321 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b31b56189fd7e09708c07fe8a8ace1a3 = $(`<div id="html_b31b56189fd7e09708c07fe8a8ace1a3" style="width: 100.0%; height: 100.0%;">Peru: Avg Rating 6.80, Movies: 9</div>`)[0];
+                popup_8fe8209dd2df89d0edccd19182e9f321.setContent(html_b31b56189fd7e09708c07fe8a8ace1a3);
+            
+        
+
+        circle_marker_06df2dc05eed86d9161a55cde0a6ed65.bindPopup(popup_8fe8209dd2df89d0edccd19182e9f321)
+        ;
+
+        
+    
+    
+            circle_marker_06df2dc05eed86d9161a55cde0a6ed65.bindTooltip(
+                `<div>
+                     Peru: 
+ Average Rating: 6.80, number of movies: 9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a0c52516992cd56fca554ae2be9a2703 = L.circleMarker(
+                [13.0, 122.0],
+                {"bubblingMouseEvents": true, "color": "#ffbf00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbf00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5378959276018094, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_002639a2f6c6675a6cdb314fff4d814e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e992d605853093bc7fe02dd11b83fab = $(`<div id="html_8e992d605853093bc7fe02dd11b83fab" style="width: 100.0%; height: 100.0%;">Philippines: Avg Rating 6.37, Movies: 34</div>`)[0];
+                popup_002639a2f6c6675a6cdb314fff4d814e.setContent(html_8e992d605853093bc7fe02dd11b83fab);
+            
+        
+
+        circle_marker_a0c52516992cd56fca554ae2be9a2703.bindPopup(popup_002639a2f6c6675a6cdb314fff4d814e)
+        ;
+
+        
+    
+    
+            circle_marker_a0c52516992cd56fca554ae2be9a2703.bindTooltip(
+                `<div>
+                     Philippines: 
+ Average Rating: 6.37, number of movies: 34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b700629e9891fd9a794271691e3f59f2 = L.circleMarker(
+                [52.0, 19.0],
+                {"bubblingMouseEvents": true, "color": "#c3f64eff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c3f64eff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.067307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_285dd5a2f0031120bfe4c953534cdbdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d17770ffa5fcb4c1eccb9184bfc4e028 = $(`<div id="html_d17770ffa5fcb4c1eccb9184bfc4e028" style="width: 100.0%; height: 100.0%;">Poland: Avg Rating 6.90, Movies: 61</div>`)[0];
+                popup_285dd5a2f0031120bfe4c953534cdbdb.setContent(html_d17770ffa5fcb4c1eccb9184bfc4e028);
+            
+        
+
+        circle_marker_b700629e9891fd9a794271691e3f59f2.bindPopup(popup_285dd5a2f0031120bfe4c953534cdbdb)
+        ;
+
+        
+    
+    
+            circle_marker_b700629e9891fd9a794271691e3f59f2.bindTooltip(
+                `<div>
+                     Poland: 
+ Average Rating: 6.90, number of movies: 61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4d26b474637371a53cae85c48a57869 = L.circleMarker(
+                [39.5, -8.0],
+                {"bubblingMouseEvents": true, "color": "#fbff05ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fbff05ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8573076923076925, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_6000e39ddd6f54dc6c2c72cd0385c306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c873879d68b5e0a465c8d61c62cf3b = $(`<div id="html_c5c873879d68b5e0a465c8d61c62cf3b" style="width: 100.0%; height: 100.0%;">Portugal: Avg Rating 6.69, Movies: 20</div>`)[0];
+                popup_6000e39ddd6f54dc6c2c72cd0385c306.setContent(html_c5c873879d68b5e0a465c8d61c62cf3b);
+            
+        
+
+        circle_marker_b4d26b474637371a53cae85c48a57869.bindPopup(popup_6000e39ddd6f54dc6c2c72cd0385c306)
+        ;
+
+        
+    
+    
+            circle_marker_b4d26b474637371a53cae85c48a57869.bindTooltip(
+                `<div>
+                     Portugal: 
+ Average Rating: 6.69, number of movies: 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ef535abce70e47d4be3f712022d8487c = L.circleMarker(
+                [41.6, 21.7],
+                {"bubblingMouseEvents": true, "color": "#32a632ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#32a632ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.533974358974358, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_c061d18ae98741d3dfe6a64d0d0a651f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf7f09daa68eec6cb7d2beb891f0adf5 = $(`<div id="html_bf7f09daa68eec6cb7d2beb891f0adf5" style="width: 100.0%; height: 100.0%;">Republic of Macedonia: Avg Rating 7.37, Movies: 6</div>`)[0];
+                popup_c061d18ae98741d3dfe6a64d0d0a651f.setContent(html_bf7f09daa68eec6cb7d2beb891f0adf5);
+            
+        
+
+        circle_marker_ef535abce70e47d4be3f712022d8487c.bindPopup(popup_c061d18ae98741d3dfe6a64d0d0a651f)
+        ;
+
+        
+    
+    
+            circle_marker_ef535abce70e47d4be3f712022d8487c.bindTooltip(
+                `<div>
+                     Republic of Macedonia: 
+ Average Rating: 7.37, number of movies: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5aae4ba349c15421d2cffea3b8f50ba6 = L.circleMarker(
+                [46.0, 25.0],
+                {"bubblingMouseEvents": true, "color": "#ffef00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffef00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7614253393665154, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_1e58dbc84601a5752adb1869a26c7421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edf3f5310e9a208c5872942a00b66ecf = $(`<div id="html_edf3f5310e9a208c5872942a00b66ecf" style="width: 100.0%; height: 100.0%;">Romania: Avg Rating 6.59, Movies: 34</div>`)[0];
+                popup_1e58dbc84601a5752adb1869a26c7421.setContent(html_edf3f5310e9a208c5872942a00b66ecf);
+            
+        
+
+        circle_marker_5aae4ba349c15421d2cffea3b8f50ba6.bindPopup(popup_1e58dbc84601a5752adb1869a26c7421)
+        ;
+
+        
+    
+    
+            circle_marker_5aae4ba349c15421d2cffea3b8f50ba6.bindTooltip(
+                `<div>
+                     Romania: 
+ Average Rating: 6.59, number of movies: 34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cd3a275ce64584bdb046be1b5e5134ea = L.circleMarker(
+                [61.5, 105.0],
+                {"bubblingMouseEvents": true, "color": "#fbff06ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fbff06ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8581240188383052, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_ce4c07b599692d249e909b8cddb07b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad63b1188bf81186e823fb156bfd061d = $(`<div id="html_ad63b1188bf81186e823fb156bfd061d" style="width: 100.0%; height: 100.0%;">Russia: Avg Rating 6.69, Movies: 98</div>`)[0];
+                popup_ce4c07b599692d249e909b8cddb07b78.setContent(html_ad63b1188bf81186e823fb156bfd061d);
+            
+        
+
+        circle_marker_cd3a275ce64584bdb046be1b5e5134ea.bindPopup(popup_ce4c07b599692d249e909b8cddb07b78)
+        ;
+
+        
+    
+    
+            circle_marker_cd3a275ce64584bdb046be1b5e5134ea.bindTooltip(
+                `<div>
+                     Russia: 
+ Average Rating: 6.69, number of movies: 98
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82f6a256f6e94de8128c142f0e4b3001 = L.circleMarker(
+                [56.0, -4.0],
+                {"bubblingMouseEvents": true, "color": "#defa2bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#defa2bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.967307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_e78928bbb286cb3b05e509487ea6612f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1996ed83eef7e0352aa152da03b2558 = $(`<div id="html_d1996ed83eef7e0352aa152da03b2558" style="width: 100.0%; height: 100.0%;">Scotland: Avg Rating 6.80, Movies: 19</div>`)[0];
+                popup_e78928bbb286cb3b05e509487ea6612f.setContent(html_d1996ed83eef7e0352aa152da03b2558);
+            
+        
+
+        circle_marker_82f6a256f6e94de8128c142f0e4b3001.bindPopup(popup_e78928bbb286cb3b05e509487ea6612f)
+        ;
+
+        
+    
+    
+            circle_marker_82f6a256f6e94de8128c142f0e4b3001.bindTooltip(
+                `<div>
+                     Scotland: 
+ Average Rating: 6.80, number of movies: 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_67b3229ed04d47c7332355766b975b5f = L.circleMarker(
+                [44.0, 21.0],
+                {"bubblingMouseEvents": true, "color": "#bef555ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bef555ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.087307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_5382e880053dd208e53e3b40f92fbc12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8e2ac9198e59ffcfd6caa63b48f7d8 = $(`<div id="html_7d8e2ac9198e59ffcfd6caa63b48f7d8" style="width: 100.0%; height: 100.0%;">Serbia: Avg Rating 6.92, Movies: 20</div>`)[0];
+                popup_5382e880053dd208e53e3b40f92fbc12.setContent(html_7d8e2ac9198e59ffcfd6caa63b48f7d8);
+            
+        
+
+        circle_marker_67b3229ed04d47c7332355766b975b5f.bindPopup(popup_5382e880053dd208e53e3b40f92fbc12)
+        ;
+
+        
+    
+    
+            circle_marker_67b3229ed04d47c7332355766b975b5f.bindTooltip(
+                `<div>
+                     Serbia: 
+ Average Rating: 6.92, number of movies: 20
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_205aa824c556fbc71eb27e56dd3e0208 = L.circleMarker(
+                [44.0, 21.0],
+                {"bubblingMouseEvents": true, "color": "#60c960ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60c960ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4006410256410255, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7965c3bdc7b7cb60699951d7372bf30c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6ac4f8524833edff26301588e09c06f = $(`<div id="html_f6ac4f8524833edff26301588e09c06f" style="width: 100.0%; height: 100.0%;">Serbia and Montenegro: Avg Rating 7.23, Movies: 6</div>`)[0];
+                popup_7965c3bdc7b7cb60699951d7372bf30c.setContent(html_f6ac4f8524833edff26301588e09c06f);
+            
+        
+
+        circle_marker_205aa824c556fbc71eb27e56dd3e0208.bindPopup(popup_7965c3bdc7b7cb60699951d7372bf30c)
+        ;
+
+        
+    
+    
+            circle_marker_205aa824c556fbc71eb27e56dd3e0208.bindTooltip(
+                `<div>
+                     Serbia and Montenegro: 
+ Average Rating: 7.23, number of movies: 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e64d319a2f724c3319d739d173f6bcda = L.circleMarker(
+                [1.3, 103.8],
+                {"bubblingMouseEvents": true, "color": "#ff8b00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff8b00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3536713286713287, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_d61d6c4b02abab469dca4b6f476f9b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4652229218cfa69ccb5bfcb89f768af6 = $(`<div id="html_4652229218cfa69ccb5bfcb89f768af6" style="width: 100.0%; height: 100.0%;">Singapore: Avg Rating 6.19, Movies: 22</div>`)[0];
+                popup_d61d6c4b02abab469dca4b6f476f9b47.setContent(html_4652229218cfa69ccb5bfcb89f768af6);
+            
+        
+
+        circle_marker_e64d319a2f724c3319d739d173f6bcda.bindPopup(popup_d61d6c4b02abab469dca4b6f476f9b47)
+        ;
+
+        
+    
+    
+            circle_marker_e64d319a2f724c3319d739d173f6bcda.bindTooltip(
+                `<div>
+                     Singapore: 
+ Average Rating: 6.19, number of movies: 22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bf1ff2f818aff3d79e8cb9b19ed77469 = L.circleMarker(
+                [46.1, 14.8],
+                {"bubblingMouseEvents": true, "color": "#008000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#008000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.679807692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_a440207d97bc6d70825d2983d22770bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e1425f1e0f92817ee3646285e9a4d1 = $(`<div id="html_91e1425f1e0f92817ee3646285e9a4d1" style="width: 100.0%; height: 100.0%;">Slovenia: Avg Rating 7.51, Movies: 8</div>`)[0];
+                popup_a440207d97bc6d70825d2983d22770bb.setContent(html_91e1425f1e0f92817ee3646285e9a4d1);
+            
+        
+
+        circle_marker_bf1ff2f818aff3d79e8cb9b19ed77469.bindPopup(popup_a440207d97bc6d70825d2983d22770bb)
+        ;
+
+        
+    
+    
+            circle_marker_bf1ff2f818aff3d79e8cb9b19ed77469.bindTooltip(
+                `<div>
+                     Slovenia: 
+ Average Rating: 7.51, number of movies: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_423287d29a9d41945c78797e29fe8c86 = L.circleMarker(
+                [-30.0, 25.0],
+                {"bubblingMouseEvents": true, "color": "#ff0000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_3b5ccc1fcb893c9d72026282362c0599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4e9afa9dd508cad7e1ce100310914b6 = $(`<div id="html_a4e9afa9dd508cad7e1ce100310914b6" style="width: 100.0%; height: 100.0%;">South Africa: Avg Rating 5.83, Movies: 52</div>`)[0];
+                popup_3b5ccc1fcb893c9d72026282362c0599.setContent(html_a4e9afa9dd508cad7e1ce100310914b6);
+            
+        
+
+        circle_marker_423287d29a9d41945c78797e29fe8c86.bindPopup(popup_3b5ccc1fcb893c9d72026282362c0599)
+        ;
+
+        
+    
+    
+            circle_marker_423287d29a9d41945c78797e29fe8c86.bindTooltip(
+                `<div>
+                     South Africa: 
+ Average Rating: 5.83, number of movies: 52
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c37164145ab399a75093d63f516a7d30 = L.circleMarker(
+                [36.0, 128.0],
+                {"bubblingMouseEvents": true, "color": "#ffe000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6951455301455303, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_75ca0d239ee1a5e0027fdc9a087bdef0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5494237c28c4fe847a889fedfd3097e6 = $(`<div id="html_5494237c28c4fe847a889fedfd3097e6" style="width: 100.0%; height: 100.0%;">South Korea: Avg Rating 6.53, Movies: 370</div>`)[0];
+                popup_75ca0d239ee1a5e0027fdc9a087bdef0.setContent(html_5494237c28c4fe847a889fedfd3097e6);
+            
+        
+
+        circle_marker_c37164145ab399a75093d63f516a7d30.bindPopup(popup_75ca0d239ee1a5e0027fdc9a087bdef0)
+        ;
+
+        
+    
+    
+            circle_marker_c37164145ab399a75093d63f516a7d30.bindTooltip(
+                `<div>
+                     South Korea: 
+ Average Rating: 6.53, number of movies: 370
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_00133cf91c9ae595381485e8c24b25a6 = L.circleMarker(
+                [60.0, 100.0],
+                {"bubblingMouseEvents": true, "color": "#7cdf7cff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7cdf7cff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.319391025641026, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_719023c2af36b554d74d64d0d38f6c2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16bcfc2e55ec75a25bb6f6a64d4af80 = $(`<div id="html_c16bcfc2e55ec75a25bb6f6a64d4af80" style="width: 100.0%; height: 100.0%;">Soviet Union: Avg Rating 7.15, Movies: 48</div>`)[0];
+                popup_719023c2af36b554d74d64d0d38f6c2a.setContent(html_c16bcfc2e55ec75a25bb6f6a64d4af80);
+            
+        
+
+        circle_marker_00133cf91c9ae595381485e8c24b25a6.bindPopup(popup_719023c2af36b554d74d64d0d38f6c2a)
+        ;
+
+        
+    
+    
+            circle_marker_00133cf91c9ae595381485e8c24b25a6.bindTooltip(
+                `<div>
+                     Soviet Union: 
+ Average Rating: 7.15, number of movies: 48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0944eb1dc4f2bf20330a998f98fff069 = L.circleMarker(
+                [40.0, -4.0],
+                {"bubblingMouseEvents": true, "color": "#ffb500ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb500ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.491737659734402, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_c7b23f22e3ae35d1b43394cf02a5fd46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e104409d564f50251bfea5fd95a0ed5a = $(`<div id="html_e104409d564f50251bfea5fd95a0ed5a" style="width: 100.0%; height: 100.0%;">Spain: Avg Rating 6.32, Movies: 307</div>`)[0];
+                popup_c7b23f22e3ae35d1b43394cf02a5fd46.setContent(html_e104409d564f50251bfea5fd95a0ed5a);
+            
+        
+
+        circle_marker_0944eb1dc4f2bf20330a998f98fff069.bindPopup(popup_c7b23f22e3ae35d1b43394cf02a5fd46)
+        ;
+
+        
+    
+    
+            circle_marker_0944eb1dc4f2bf20330a998f98fff069.bindTooltip(
+                `<div>
+                     Spain: 
+ Average Rating: 6.32, number of movies: 307
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f9fdfc04baddb1e54e28acf8a58afcdd = L.circleMarker(
+                [62.0, 15.0],
+                {"bubblingMouseEvents": true, "color": "#effd15ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#effd15ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.902834008097166, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_71062f061dec862c64f945c066b635b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bec10c1f09172bedc9115d8c017c4132 = $(`<div id="html_bec10c1f09172bedc9115d8c017c4132" style="width: 100.0%; height: 100.0%;">Sweden: Avg Rating 6.74, Movies: 152</div>`)[0];
+                popup_71062f061dec862c64f945c066b635b7.setContent(html_bec10c1f09172bedc9115d8c017c4132);
+            
+        
+
+        circle_marker_f9fdfc04baddb1e54e28acf8a58afcdd.bindPopup(popup_71062f061dec862c64f945c066b635b7)
+        ;
+
+        
+    
+    
+            circle_marker_f9fdfc04baddb1e54e28acf8a58afcdd.bindTooltip(
+                `<div>
+                     Sweden: 
+ Average Rating: 6.74, number of movies: 152
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc7f4f50a026a0e5a0ee5ae6e3e61425 = L.circleMarker(
+                [46.8, 8.2],
+                {"bubblingMouseEvents": true, "color": "#fbff05ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fbff05ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.85536739380023, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_8c7316da88aab891f7f807317623aa8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4c9b50a34a2b91bb0c047271a1cd6ab = $(`<div id="html_d4c9b50a34a2b91bb0c047271a1cd6ab" style="width: 100.0%; height: 100.0%;">Switzerland: Avg Rating 6.69, Movies: 67</div>`)[0];
+                popup_8c7316da88aab891f7f807317623aa8c.setContent(html_d4c9b50a34a2b91bb0c047271a1cd6ab);
+            
+        
+
+        circle_marker_bc7f4f50a026a0e5a0ee5ae6e3e61425.bindPopup(popup_8c7316da88aab891f7f807317623aa8c)
+        ;
+
+        
+    
+    
+            circle_marker_bc7f4f50a026a0e5a0ee5ae6e3e61425.bindTooltip(
+                `<div>
+                     Switzerland: 
+ Average Rating: 6.69, number of movies: 67
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_17a706017c97ff00bebdfb44648e3c70 = L.circleMarker(
+                [23.7, 121.0],
+                {"bubblingMouseEvents": true, "color": "#dcfa2eff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcfa2eff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9747150997151, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_612377e9bca63793da8a78e2ae7cc89d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_157f87a087d6918f22538c1444d15812 = $(`<div id="html_157f87a087d6918f22538c1444d15812" style="width: 100.0%; height: 100.0%;">Taiwan: Avg Rating 6.81, Movies: 54</div>`)[0];
+                popup_612377e9bca63793da8a78e2ae7cc89d.setContent(html_157f87a087d6918f22538c1444d15812);
+            
+        
+
+        circle_marker_17a706017c97ff00bebdfb44648e3c70.bindPopup(popup_612377e9bca63793da8a78e2ae7cc89d)
+        ;
+
+        
+    
+    
+            circle_marker_17a706017c97ff00bebdfb44648e3c70.bindTooltip(
+                `<div>
+                     Taiwan: 
+ Average Rating: 6.81, number of movies: 54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3390b490fe78a31fdf27a42c5f7d09a0 = L.circleMarker(
+                [15.0, 101.0],
+                {"bubblingMouseEvents": true, "color": "#ff0700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0181848852901485, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_811726be38e9def75ae8cb1bd9d2afbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9da737cbc9a740ec35d0e444a511890 = $(`<div id="html_f9da737cbc9a740ec35d0e444a511890" style="width: 100.0%; height: 100.0%;">Thailand: Avg Rating 5.85, Movies: 57</div>`)[0];
+                popup_811726be38e9def75ae8cb1bd9d2afbc.setContent(html_f9da737cbc9a740ec35d0e444a511890);
+            
+        
+
+        circle_marker_3390b490fe78a31fdf27a42c5f7d09a0.bindPopup(popup_811726be38e9def75ae8cb1bd9d2afbc)
+        ;
+
+        
+    
+    
+            circle_marker_3390b490fe78a31fdf27a42c5f7d09a0.bindTooltip(
+                `<div>
+                     Thailand: 
+ Average Rating: 5.85, number of movies: 57
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1af93fcd7eb5e9273a7730106d449560 = L.circleMarker(
+                [33.9, 9.6],
+                {"bubblingMouseEvents": true, "color": "#ffa600ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffa600ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4244505494505493, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_80dfb844d24d2161986e89b32748f628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_307738eb2ba1d4171ed685f10e4274fb = $(`<div id="html_307738eb2ba1d4171ed685f10e4274fb" style="width: 100.0%; height: 100.0%;">Tunisia: Avg Rating 6.26, Movies: 7</div>`)[0];
+                popup_80dfb844d24d2161986e89b32748f628.setContent(html_307738eb2ba1d4171ed685f10e4274fb);
+            
+        
+
+        circle_marker_1af93fcd7eb5e9273a7730106d449560.bindPopup(popup_80dfb844d24d2161986e89b32748f628)
+        ;
+
+        
+    
+    
+            circle_marker_1af93fcd7eb5e9273a7730106d449560.bindTooltip(
+                `<div>
+                     Tunisia: 
+ Average Rating: 6.26, number of movies: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3c1290379410d327b3e7798f53726dfc = L.circleMarker(
+                [39.0, 35.0],
+                {"bubblingMouseEvents": true, "color": "#fffc00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffc00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8218531468531465, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_81f8e06dc8258d0814f306b927d7d940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54a513718cbfd38af927433094f3443f = $(`<div id="html_54a513718cbfd38af927433094f3443f" style="width: 100.0%; height: 100.0%;">Turkey: Avg Rating 6.65, Movies: 66</div>`)[0];
+                popup_81f8e06dc8258d0814f306b927d7d940.setContent(html_54a513718cbfd38af927433094f3443f);
+            
+        
+
+        circle_marker_3c1290379410d327b3e7798f53726dfc.bindPopup(popup_81f8e06dc8258d0814f306b927d7d940)
+        ;
+
+        
+    
+    
+            circle_marker_3c1290379410d327b3e7798f53726dfc.bindTooltip(
+                `<div>
+                     Turkey: 
+ Average Rating: 6.65, number of movies: 66
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_180480c4a13d59e471237e25f36015f2 = L.circleMarker(
+                [48.4, 31.2],
+                {"bubblingMouseEvents": true, "color": "#caf745ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#caf745ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.042307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_bfcd3ee25a5c999292ae6216bb2942ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bbc9c55100bef94f9e5ff12e9a93b16 = $(`<div id="html_3bbc9c55100bef94f9e5ff12e9a93b16" style="width: 100.0%; height: 100.0%;">Ukraine: Avg Rating 6.88, Movies: 8</div>`)[0];
+                popup_bfcd3ee25a5c999292ae6216bb2942ce.setContent(html_3bbc9c55100bef94f9e5ff12e9a93b16);
+            
+        
+
+        circle_marker_180480c4a13d59e471237e25f36015f2.bindPopup(popup_bfcd3ee25a5c999292ae6216bb2942ce)
+        ;
+
+        
+    
+    
+            circle_marker_180480c4a13d59e471237e25f36015f2.bindTooltip(
+                `<div>
+                     Ukraine: 
+ Average Rating: 6.88, number of movies: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ca636dca8be1ce734d9db51b875bd53e = L.circleMarker(
+                [24.0, 54.0],
+                {"bubblingMouseEvents": true, "color": "#ffb700ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffb700ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5048076923076916, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_83dfd54c8d1cc802ce63f1952c03b799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf974659f0cd06fa307b7a9bdff1f0a9 = $(`<div id="html_cf974659f0cd06fa307b7a9bdff1f0a9" style="width: 100.0%; height: 100.0%;">United Arab Emirates: Avg Rating 6.34, Movies: 8</div>`)[0];
+                popup_83dfd54c8d1cc802ce63f1952c03b799.setContent(html_cf974659f0cd06fa307b7a9bdff1f0a9);
+            
+        
+
+        circle_marker_ca636dca8be1ce734d9db51b875bd53e.bindPopup(popup_83dfd54c8d1cc802ce63f1952c03b799)
+        ;
+
+        
+    
+    
+            circle_marker_ca636dca8be1ce734d9db51b875bd53e.bindTooltip(
+                `<div>
+                     United Arab Emirates: 
+ Average Rating: 6.34, number of movies: 8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d3e8af1e8f47b0548b3f7dddf0867363 = L.circleMarker(
+                [54.0, -2.0],
+                {"bubblingMouseEvents": true, "color": "#ffc200ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffc200ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.552679697351828, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_44000ffc455f2c1cd53a9cfe6c392d67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6a38503852e4ca2566891a653255f49 = $(`<div id="html_b6a38503852e4ca2566891a653255f49" style="width: 100.0%; height: 100.0%;">United Kingdom: Avg Rating 6.39, Movies: 2379</div>`)[0];
+                popup_44000ffc455f2c1cd53a9cfe6c392d67.setContent(html_b6a38503852e4ca2566891a653255f49);
+            
+        
+
+        circle_marker_d3e8af1e8f47b0548b3f7dddf0867363.bindPopup(popup_44000ffc455f2c1cd53a9cfe6c392d67)
+        ;
+
+        
+    
+    
+            circle_marker_d3e8af1e8f47b0548b3f7dddf0867363.bindTooltip(
+                `<div>
+                     United Kingdom: 
+ Average Rating: 6.39, number of movies: 2379
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73f1c83b53024fa5bd59c6a12b36bda7 = L.circleMarker(
+                [38.0, -97.0],
+                {"bubblingMouseEvents": true, "color": "#ff7d00ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7d00ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.3170956074737594, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_de8c9c8c82ce06b2a84113cc914268f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b89d724f79ad5d5bc02b8b571f049e8 = $(`<div id="html_4b89d724f79ad5d5bc02b8b571f049e8" style="width: 100.0%; height: 100.0%;">United States of America: Avg Rating 6.15, Movies: 12495</div>`)[0];
+                popup_de8c9c8c82ce06b2a84113cc914268f6.setContent(html_4b89d724f79ad5d5bc02b8b571f049e8);
+            
+        
+
+        circle_marker_73f1c83b53024fa5bd59c6a12b36bda7.bindPopup(popup_de8c9c8c82ce06b2a84113cc914268f6)
+        ;
+
+        
+    
+    
+            circle_marker_73f1c83b53024fa5bd59c6a12b36bda7.bindTooltip(
+                `<div>
+                     United States of America: 
+ Average Rating: 6.15, number of movies: 12495
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e45e5cb9c3289e5bc61635b34adbb46e = L.circleMarker(
+                [-32.5, -55.8],
+                {"bubblingMouseEvents": true, "color": "#96ef89ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#96ef89ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.238736263736263, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_774185c3e2409bcc504b72a18ebc5f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd8c88f287857e4c457fc942131b3ab = $(`<div id="html_5dd8c88f287857e4c457fc942131b3ab" style="width: 100.0%; height: 100.0%;">Uruguay: Avg Rating 7.07, Movies: 7</div>`)[0];
+                popup_774185c3e2409bcc504b72a18ebc5f24.setContent(html_5dd8c88f287857e4c457fc942131b3ab);
+            
+        
+
+        circle_marker_e45e5cb9c3289e5bc61635b34adbb46e.bindPopup(popup_774185c3e2409bcc504b72a18ebc5f24)
+        ;
+
+        
+    
+    
+            circle_marker_e45e5cb9c3289e5bc61635b34adbb46e.bindTooltip(
+                `<div>
+                     Uruguay: 
+ Average Rating: 7.07, number of movies: 7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee061d3a9035207800af2fda5d837845 = L.circleMarker(
+                [16.0, 108.0],
+                {"bubblingMouseEvents": true, "color": "#defa2bff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#defa2bff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.967307692307692, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_9f83f15fc93784e25aa085cf8767cd51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62f677d4af7ae8e02eae24927177db5 = $(`<div id="html_d62f677d4af7ae8e02eae24927177db5" style="width: 100.0%; height: 100.0%;">Vietnam: Avg Rating 6.80, Movies: 10</div>`)[0];
+                popup_9f83f15fc93784e25aa085cf8767cd51.setContent(html_d62f677d4af7ae8e02eae24927177db5);
+            
+        
+
+        circle_marker_ee061d3a9035207800af2fda5d837845.bindPopup(popup_9f83f15fc93784e25aa085cf8767cd51)
+        ;
+
+        
+    
+    
+            circle_marker_ee061d3a9035207800af2fda5d837845.bindTooltip(
+                `<div>
+                     Vietnam: 
+ Average Rating: 6.80, number of movies: 10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29017cc29bb9dde2449dacc34f5ad3f9 = L.circleMarker(
+                [51.0, 10.0],
+                {"bubblingMouseEvents": true, "color": "#71d671ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#71d671ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3515182186234815, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_7c81990015ee44840da2f0194a003192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef43da873b46b6fc27a63f24c6091c8 = $(`<div id="html_9ef43da873b46b6fc27a63f24c6091c8" style="width: 100.0%; height: 100.0%;">Weimar Republic: Avg Rating 7.18, Movies: 19</div>`)[0];
+                popup_7c81990015ee44840da2f0194a003192.setContent(html_9ef43da873b46b6fc27a63f24c6091c8);
+            
+        
+
+        circle_marker_29017cc29bb9dde2449dacc34f5ad3f9.bindPopup(popup_7c81990015ee44840da2f0194a003192)
+        ;
+
+        
+    
+    
+            circle_marker_29017cc29bb9dde2449dacc34f5ad3f9.bindTooltip(
+                `<div>
+                     Weimar Republic: 
+ Average Rating: 7.18, number of movies: 19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_973dfef220eb5232c72a9c3c851c9a79 = L.circleMarker(
+                [51.0, 9.0],
+                {"bubblingMouseEvents": true, "color": "#ffe800ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe800ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7292911633820722, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_60f8c317b6eb9a2efa78eb1dbf94f7e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edf6bf444da50201f1b8f0cc1b92afc0 = $(`<div id="html_edf6bf444da50201f1b8f0cc1b92afc0" style="width: 100.0%; height: 100.0%;">West Germany: Avg Rating 6.56, Movies: 121</div>`)[0];
+                popup_60f8c317b6eb9a2efa78eb1dbf94f7e9.setContent(html_edf6bf444da50201f1b8f0cc1b92afc0);
+            
+        
+
+        circle_marker_973dfef220eb5232c72a9c3c851c9a79.bindPopup(popup_60f8c317b6eb9a2efa78eb1dbf94f7e9)
+        ;
+
+        
+    
+    
+            circle_marker_973dfef220eb5232c72a9c3c851c9a79.bindTooltip(
+                `<div>
+                     West Germany: 
+ Average Rating: 6.56, number of movies: 121
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f571c73ffb7be1e70babaa34f9dd8e8 = L.circleMarker(
+                [44.0, 21.0],
+                {"bubblingMouseEvents": true, "color": "#d3f939ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d3f939ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.006701631701631, "stroke": true, "weight": 3}
+            ).addTo(map_74465964781c2da32775d0217e651be5);
+        
+    
+        var popup_cdb50bfd820e1537561d0d6f477d19ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41495f135e02740df7256cc4d0755341 = $(`<div id="html_41495f135e02740df7256cc4d0755341" style="width: 100.0%; height: 100.0%;">Yugoslavia: Avg Rating 6.84, Movies: 33</div>`)[0];
+                popup_cdb50bfd820e1537561d0d6f477d19ee.setContent(html_41495f135e02740df7256cc4d0755341);
+            
+        
+
+        circle_marker_3f571c73ffb7be1e70babaa34f9dd8e8.bindPopup(popup_cdb50bfd820e1537561d0d6f477d19ee)
+        ;
+
+        
+    
+    
+            circle_marker_3f571c73ffb7be1e70babaa34f9dd8e8.bindTooltip(
+                `<div>
+                     Yugoslavia: 
+ Average Rating: 6.84, number of movies: 33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
