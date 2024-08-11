@@ -1,6 +1,6 @@
 # Hack IMDb rating
 
-# Please visit our data story [here](https://charfimohamed.github.io/).
+# Please visit our data story [here](https://charfimohamed.github.io/IMDb_ratings_analysis/).
 
 ## Abstract
 
