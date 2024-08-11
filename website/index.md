@@ -73,7 +73,7 @@ It's time to put to work our triangulation skills and go for an adventure across
 
 When investigating the world map of movie ratings, we spot a curious trend.
 
-<iframe src="https://charfimohamed.github.io/charfimohamed.github.io-map/map_average_rating_per_country.html" width="800" height="600"></iframe>
+<iframe src="./map/map_average_rating_per_country.html" width="800" height="600"></iframe>
 
 In fact, the United States, land of the free and harbor of Hollywood, isn't scoring as high as we think, with a modest 6.15 IMDb average. Meanwhile, countries that might not be known for their cinematographic achievement get higher scores. For exmaple, countries like Slovenia, Bosnia, and Iran get much high rating.
 
