@@ -41,8 +41,11 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
 
+      - name: Install Bundler 1.17.2
+        run: gem install bundler:1.17.2
+
       - name: Install Dependencies
-        run: bundle install
+        run: bundle _1.17.2_ install
         working-directory: ./website
 
       - name: Setup Pages
@@ -51,7 +54,7 @@ jobs:
 
       - name: Build with Jekyll
         # Change working directory to the 'website' folder
-        run: bundle exec jekyll build --source . --baseurl "/IMDb_ratings_analysis"
+        run: bundle _1.17.2_ exec jekyll build --source . --baseurl "/IMDb_ratings_analysis"
         working-directory: ./website
         env:
           JEKYLL_ENV: production
